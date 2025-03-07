@@ -1,0 +1,7 @@
+html {
+	--user-card-photo-size: 150px;
+	--user-card-useName-color: #515b34;
+	--user-card-uesrInfo-work-color: #d97961;
+	--user-card-links-bg-color: #806f51;
+	--user-card-links-bg-color-hover: #d97961;
+}

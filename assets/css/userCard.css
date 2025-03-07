@@ -1,0 +1,137 @@
+.user-card-parent {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 10px;
+}
+
+.user-card {
+	display: flex;
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 400px;
+	flex-direction: column;
+	align-items: center;
+	border: 2px solid #000;
+	border-radius: 39px;
+	background: #fff9f9;
+	width: 100%;
+	max-width: 500px;
+	-webkit-border-radius: 39px;
+	-moz-border-radius: 39px;
+	-ms-border-radius: 39px;
+	-o-border-radius: 39px;
+	padding: 22px 39px 42px;
+}
+
+.user-card__photo img {
+	border-radius: 50%;
+	width: var(--user-card-photo-size);
+	height: var(--user-card-photo-size);
+	object-fit: cover;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	margin-bottom: 38px;
+}
+
+.user-card__userName {
+	margin-bottom: 10px;
+	color: var(--user-card-useName-color);
+	font-weight: 800;
+	font-size: 38px;
+	line-height: 100%;
+	text-transform: uppercase;
+}
+
+.user-card__userInfo {
+	text-align: center;
+}
+
+.user-card__userInfo h3 {
+	margin-bottom: 27px;
+	color: var(--user-card-uesrInfo-work-color);
+	font-weight: 800;
+	font-size: 24px;
+	line-height: 100%;
+}
+
+.user-card__userInfo p {
+	margin-bottom: 35px;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 100%;
+}
+.user-card__socialContacts {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: auto;
+	margin-bottom: 24px;
+	border-bottom: 1px solid #000;
+	width: 100%;
+}
+
+.user-card__socialContacts h2 {
+	margin-bottom: 28px;
+	color: var(--user-card-useName-color);
+	font-weight: 700;
+	font-size: 38px;
+	line-height: 100%;
+}
+
+.socialContacts__links {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	margin-bottom: 22px;
+	width: 100%;
+}
+
+.link-item {
+	list-style: none;
+}
+
+.link-item a {
+	border: 3px solid #000;
+	border-radius: 50%;
+	padding: 10px;
+	color: #000;
+	font-size: 36px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+}
+
+.user-card__links-about {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 10px;
+}
+
+.links-about__item {
+	list-style: none;
+}
+
+.links-about__item a {
+	display: block;
+	transition: 0.3s;
+	background: var(--user-card-links-bg-color);
+	padding: 15px 54px;
+	color: #fff;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 100%;
+	text-decoration: none;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-ms-transition: 0.3s;
+	-o-transition: 0.3s;
+}
+
+.links-about__item a:hover {
+	background-color: var(--user-card-links-bg-color-hover);
+}
