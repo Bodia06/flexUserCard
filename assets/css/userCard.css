@@ -3,6 +3,8 @@
 	flex-wrap: wrap;
 	justify-content: center;
 	gap: 10px;
+	font-size: 24px;
+	line-height: 100%;
 }
 
 .user-card {
@@ -40,8 +42,7 @@
 	margin-bottom: 10px;
 	color: var(--user-card-useName-color);
 	font-weight: 800;
-	font-size: 38px;
-	line-height: 100%;
+	font-size: 1.58em;
 	text-transform: uppercase;
 }
 
@@ -53,15 +54,13 @@
 	margin-bottom: 27px;
 	color: var(--user-card-uesrInfo-work-color);
 	font-weight: 800;
-	font-size: 24px;
-	line-height: 100%;
+	font-size: 1em;
 }
 
 .user-card__userInfo p {
 	margin-bottom: 35px;
 	font-weight: 400;
-	font-size: 24px;
-	line-height: 100%;
+	font-size: 1em;
 }
 .user-card__socialContacts {
 	display: flex;
@@ -77,8 +76,7 @@
 	margin-bottom: 28px;
 	color: var(--user-card-useName-color);
 	font-weight: 700;
-	font-size: 38px;
-	line-height: 100%;
+	font-size: 1.58em;
 }
 
 .socialContacts__links {
@@ -94,11 +92,16 @@
 }
 
 .link-item a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	border: 3px solid #000;
 	border-radius: 50%;
-	padding: 10px;
+	width: 60px;
+	height: 60px;
 	color: #000;
-	font-size: 36px;
+	font-size: 1.5em;
+	text-decoration: none;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	-ms-border-radius: 50%;
@@ -124,7 +127,6 @@
 	color: #fff;
 	font-weight: 400;
 	font-size: 24px;
-	line-height: 100%;
 	text-decoration: none;
 	-webkit-transition: 0.3s;
 	-moz-transition: 0.3s;
