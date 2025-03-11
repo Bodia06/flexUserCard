@@ -54,13 +54,11 @@
 	margin-bottom: 27px;
 	color: var(--user-card-uesrInfo-work-color);
 	font-weight: 800;
-	font-size: 1em;
 }
 
 .user-card__userInfo p {
 	margin-bottom: 35px;
 	font-weight: 400;
-	font-size: 1em;
 }
 .user-card__socialContacts {
 	display: flex;
@@ -72,7 +70,7 @@
 	width: 100%;
 }
 
-.user-card__socialContacts h2 {
+.user-card__socialContacts h3 {
 	margin-bottom: 28px;
 	color: var(--user-card-useName-color);
 	font-weight: 700;
